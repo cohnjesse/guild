@@ -1,0 +1,43 @@
+.user {
+    font-size: 18px;
+    padding-left: 10px;
+  }
+  
+  .users {
+    color: white;
+    background: black;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 100vh;
+    flex: 1;
+  }
+  
+  .user-headline {
+    border-bottom: 1px solid white;
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  .user-list {
+    list-style-type: none;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  .userTyping.true{
+    background: white;
+    border-radius: 5px;
+    color: black;
+    margin-left: 5px;
+    padding: 0 15px;
+    position: relative;
+    width: 20px;
+  }
+
+  .userTyping.true:after {
+      content: "...";
+      position: absolute;
+      top: 0;
+      left: 7px;
+  }

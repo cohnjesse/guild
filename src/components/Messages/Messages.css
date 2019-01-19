@@ -1,0 +1,55 @@
+/* All styles in nested alphabetical order */
+.message {
+    padding: 10px;
+}
+
+.messages {
+    box-sizing: border-box;
+    display: inline-block;
+    flex: 2;
+    height: 1000px;
+    max-height: 100vh;
+    overflow: scroll;
+    padding-bottom: 30px;
+}
+  
+.message-form {
+    bottom: 0px;
+    position: absolute;
+    width: 66%;
+}
+  
+.message-input {
+    border: 1px solid black;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 10px;
+    width: 80%;
+}
+  
+.message-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 10px 60px;
+}
+
+.message-sender {
+    color: grey;
+    display: block;
+    font-size: 12px;
+}
+  
+.message-submit {
+    background: #eee;
+    border: 1px solid black;
+    color: black;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 10px;
+    width: 20%;
+}
+  
+.message-submit:hover {
+    cursor: pointer;
+}
+  
