@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import * as firebase from 'firebase/app';
+import firebaseConfig from '../../config/firebase'
 import 'firebase/auth';
 import 'firebase/database';
 import Users from '../Users/Users'
@@ -7,13 +8,9 @@ import Messages from '../Messages/Messages'
 import Login from '../Login/Login'
 import './App.css';
 
-const firebaseConfig = {
-  serviceAccount: '../guild-dab64d12b333.json',
-  databaseURL: 'https://guild-16e4e.firebaseio.com',
-}
 
+// reference for firebase database
 let dbRef;
-let typingRef;
 
 class App extends Component {
 

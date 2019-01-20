@@ -11,6 +11,8 @@ const Users = (props) => {
                 return (
                   <li key={user.id} className="user">{user.name}</li>
                 )
+              } else {
+                return ""
               }
             })}
           </ul>

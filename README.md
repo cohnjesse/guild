@@ -6,4 +6,6 @@ I decided to build the front end portion of this in React since the Guild front 
 
 Obviously this would need some refactoring if it was going to be a production app. If I was coming up with a plan to refactor it I would start by refactoring some parts of the existing components into generic components, such as the form used to send a chat or buttons used in the app. Happy to talk further about this and other possible paths for refactors.
 
+To run this project locally simply run git clone, npm i, and then serve the project by running npm start.
+
 You can view and use the working app at http://cohnjesse.com/guild
