@@ -10,6 +10,7 @@
     "react-scripts": "2.1.3",
     "socket.io": "^2.2.0"
   },
+  "homepage" : "http://cohnjesse.com/guild",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
